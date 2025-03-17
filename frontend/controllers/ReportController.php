@@ -17,6 +17,7 @@ class ReportController extends Controller
 
     public function actionIndex()
     {
+        //ReportForm::getTables();
         $model = new ReportForm();
         $tables = $model->getTables();
         $columns = [];
